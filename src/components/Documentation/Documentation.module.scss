@@ -1,0 +1,28 @@
+.documentation__options,
+.documentation__explication {
+	margin: 0 0 0 0;
+	max-height: calc(100vh - 64px);
+}
+
+.documentation__explication {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	code {
+		margin: 10px;
+		display: flex;
+		flex-direction: column;
+		background-color: #222;
+		padding: 40px;
+		font-size: 18px;
+		line-height: 1.7;
+		color: lightgreen;
+		font-weight: 300;
+		text-align: left;
+		border-radius: 3px;
+		box-shadow: 0 0 5px 1px #efefef;
+	}
+}

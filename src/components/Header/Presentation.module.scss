@@ -1,0 +1,12 @@
+.container__presentation {
+	min-height: calc(100vh - 64px);
+	color: #fefefe;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card__informations {
+	white-space: pre-line;
+}
